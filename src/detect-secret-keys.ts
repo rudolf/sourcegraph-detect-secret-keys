@@ -71,7 +71,7 @@ async function decorate(editor: CodeEditor): Promise<any> {
             borderColor: 'red',
             backgroundColor: 'hsla(0,100%,50%, 0.2)',
             after: {
-                contentText: '❗ High entropy string, check for secrets'
+                contentText: '🔐 High entropy string, might contain secrets.'
             }
         })
     )
