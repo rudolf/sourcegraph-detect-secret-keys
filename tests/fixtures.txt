@@ -1,4 +1,4 @@
-const blockBacktickString = `
+block backtick string: `
 -----BEGIN OPENSSH PRIVATE KEY-----
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcn
 NhAAAAAwEAAQAAAQEA36E/b+fuJavcNz3xl+SW7oqBghZEVDNQSjtAgqKk/LDAN/gsPkvp
@@ -25,14 +25,12 @@ EeMhkHIGdqD/TzbTHbtT/JFEIeZteLnr+/9qkVfDNxQ6z7RFsAAACBAONZ9wxlZhdYSHXL
 oNXyabdAtdelXubGqL3YzXzQLVcEAOLD+Dqy1vT/OuI1kNMXMDsbOA7oUsSyqFhnaeJjpj
 iycC1uERnnh+gH9xTyCt3bprLUowYac1jZqzrysH6lrkFSsnu4fO7oWgt2ScNbnU7dGvko
 v8ssWwgGE+eTvFrPAAAAEnJzYWtleUBleGFtcGxlLmNvbQ==
------END OPENSSH PRIVATE KEY-----
-`;
-
-const backtickString = `iycC1uERnnh+gH9xTyCt3bprLUowYac1jZqzrysH6lrkFSsnu4fO7oWgt2ScNbnU7dGvko`;
-const backtickEscapedString = `\`iycC1uERnnh+gH9xTyCt3bprLUowYac1jZqzrysH6lrkFSsnu4fO7oWgt2ScNbnU7dGvko`;
-
-const singleQuoteString = '0+0ALEDbTk4sFfB9Va6u+CVg3bw4UZ3WSptMwgcMC48';
-const singleQuoteStringEscaped = '\'ZWE1ZThkMjY1MmE4MzI4OThhOGE1YWMxZjdlYjAyY2JhOWQwZDBiOQ==';
-
-const doubleQuoteString = "da5d8d2652a832898a8a5ac1f7db02cba9d0d0c9";
-const doubleQuoteStringEscaped = "\"ZWE1ZThkMjY1MmE4MzI4OThhOGE1YWMxZjdlYjAyY2JhOWQwZDBiOQ==";
+-----END OPENSSH PRIVATE KEY-----`;
+backtick string: `iycC1uERnnh+gH9xTyCt3bprLUowYac1jZqzrysH6lrkFSsnu4fO7oWgt2ScNbnU7dGvko`;
+backtick escaped string: `\`iycC1uERnnh+gH9xTyCt3bprLUowYac1jZqzrysH6lrkFSsnu4fO7oWgt2ScNbnU7dGvko`;
+block single quote string: 'oNXyabdAtdelXubGqL3YzXzQLVcEAOLD+Dqy1vT/OuI1kNMXMDsbOA7oUsSyqFhnaeJjpj \
+iycC1uERnnh+gH9xTyCt3bprLUowYac1jZqzrysH6lrkFSsnu4fO7oWgt2ScNbnU7dGvko';
+single quote string: '0+0ALEDbTk4sFfB9Va6u+CVg3bw4UZ3WSptMwgcMC48';
+single quote string escaped: '\'ZWE1ZThkMjY1MmE4MzI4OThhOGE1YWMxZjdlYjAyY2JhOWQwZDBiOQ==';
+double quote string: "da5d8d2652a832898a8a5ac1f7db02cba9d0d0c9";
+double quote string escaped: "\"ZWE1ZThkMjY1MmE4MzI4OThhOGE1YWMxZjdlYjAyY2JhOWQwZDBiOQ==";
